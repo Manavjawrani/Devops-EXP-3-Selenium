@@ -6,7 +6,7 @@ public class BaseClass {
 
     public static void main(String[] args) {
         // declaration and instantiation of objects/variables
-    	System.setProperty("webdriver.chrome.driver","E:\Devops EXP 3 Selenium\lib\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
         String baseUrl = "http://demo.guru99.com/test/newtours/";
